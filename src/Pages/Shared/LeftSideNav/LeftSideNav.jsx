@@ -16,7 +16,7 @@ const LeftSideNav = () => {
         <Link 
         to={`/category/${category.id}`}
         className="block ml-5 text-xl text-[#9F9F9F] font-medium" 
-        key={categories.id}>
+        key={category.id}>
           {category.name}
         </Link>
       ))}
